@@ -52,5 +52,5 @@ mi<- function(x,y){
   marginal_ <- marginalProduct_(x,y)
   Hjm <- - sum(joint_[marginal_ > 0] * log(marginal_[marginal_ > 0],2))
   Hj <- - sum(joint_[joint_ > 0] * log(joint_[joint_ > 0],2))
-  return(Hjm - Hj)
+  return(abs(Hjm - Hj))
 }

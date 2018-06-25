@@ -72,5 +72,5 @@ mic <- function(x,y){
       MI_ <- append(MI_, MI_normalized)
     }
   }
-  return(round(max(MI_),4))
+  return(round(abs(max(MI_)),4))
 }

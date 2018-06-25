@@ -1,8 +1,8 @@
 Package: mlf
 Type: Package
 Title: Machine Learning Foundations
-Version: 1.2
-Date: 2018-03-30
+Version: 1.2.1
+Date: 2018-06-21
 Authors@R: c(person("Kyle", "Peterson", 
                      email = "petersonkdon@gmail.com",
                      role = c("aut", "cre")))
@@ -15,7 +15,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-04-10 14:57:37 UTC; Admin
+Packaged: 2018-06-22 18:50:01 UTC; Admin
 Author: Kyle Peterson [aut, cre]
 Repository: CRAN
-Date/Publication: 2018-04-10 17:09:12 UTC
+Date/Publication: 2018-06-25 08:01:20 UTC
